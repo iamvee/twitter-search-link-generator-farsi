@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="
+let n = new Date().valueOf();
+let neigh = 500;document.getElementById('demo1').href=`https://twitter.com/search?q=lang%3Afa%20max_id%3A${Number(BigInt(Number(n + neigh -1288834974657)) << 22n)}%20since_id%3A${Number(BigInt(Number(n - neigh -1288834974657)) << 22n)}&f=live`;
+neigh = 5000;document.getElementById('demo2').href=`https://twitter.com/search?q=lang%3Afa%20max_id%3A${Number(BigInt(Number(n + neigh -1288834974657)) << 22n)}%20since_id%3A${Number(BigInt(Number(n - neigh -1288834974657)) << 22n)}&f=live`;
+neigh = 30000;document.getElementById('demo3').href=`https://twitter.com/search?q=lang%3Afa%20max_id%3A${Number(BigInt(Number(n + neigh -1288834974657)) << 22n)}%20since_id%3A${Number(BigInt(Number(n - neigh -1288834974657)) << 22n)}&f=live`;
+neigh = 300000;document.getElementById('demo4').href=`https://twitter.com/search?q=lang%3Afa%20max_id%3A${Number(BigInt(Number(n + neigh -1288834974657)) << 22n)}%20since_id%3A${Number(BigInt(Number(n - neigh -1288834974657)) << 22n)}&f=live`;
+neigh = 1800000;document.getElementById('demo5').href=`https://twitter.com/search?q=lang%3Afa%20max_id%3A${Number(BigInt(Number(n + neigh -1288834974657)) << 22n)}%20since_id%3A${Number(BigInt(Number(n - neigh -1288834974657)) << 22n)}&f=live`;
+">توییت‌های که در زمان فشردن این کلید نوشته شده‌اند</button>
+
+<br>
+<br>
+<br>
+<a id="demo1">بازه زمانی یک ثانیه</a>
+<br>
+<a id="demo2">بازهٔ زمانی ۱۰ ثانیه</a>
+<br>
+<a id="demo3">بازهٔ زمانی یک دقیقه</a>
+<br>
+<a id="demo4">بازهٔ زمانی ۱۰ دقیقه</a>
+<br>
+<a id="demo5">بازه زمانی یک ساعت</a>
+
+
+</body>
+</html>
